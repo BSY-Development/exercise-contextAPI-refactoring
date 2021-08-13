@@ -1,13 +1,11 @@
 import React from 'react';
-import TrafficSignal from './TrafficSignal';
 import './App.css';
-import Cars from './Cars';
+import CarGrandpa from './CarGrandpa';
 
 function App() {
   return (
     <div className="container">
-      <Cars />
-      <TrafficSignal />
+      <CarGrandpa />
     </div>
   );
 }
